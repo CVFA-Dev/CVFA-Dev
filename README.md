@@ -83,7 +83,7 @@
       github: "https://github.com/CVFA-Dev",
       gitlab: "https://gitlab.com/CVFA",
       mastodon: "https://mastodon.social/@CVFA",
-      instagram: "https://instagram.com/CVFA",
+      instagram: "https://instagram.com/cvfa_dev",
       youtube: "https://youtube.com/@Cavifeal",
       website: "https://cvfa.vercel.app/"
     };
