@@ -17,6 +17,9 @@
           `I'm a ${this.info.occupation} with ${yearsOfExperience} years of experience.`,
           `You can find me on GitHub: <a href="${this.info.github}" target="_blank">${this.info.github}</a>`,
           `And on GitLab: <a href="${this.info.gitlab}" target="_blank">${this.info.gitlab}</a>`,
+          `Check out my YouTube channel: <a href="${this.info.youtube}" target="_blank">${this.info.youtube}</a>`,
+          `Check out my Instagram: <a href="${this.info.instagram}" target="_blank">${this.info.instagram}</a>`,
+          `Check out my Mastodon: <a href="${this.info.mastodon}" target="_blank">${this.info.mastodon}</a>`,
           `Check out my website: <a href="${this.info.website}" target="_blank">${this.info.website}</a>`
         ];
 
@@ -79,6 +82,9 @@
       occupation: "JavaScript developer",
       github: "https://github.com/CVFA-Dev",
       gitlab: "https://gitlab.com/CVFA",
+      mastodon: "https://mastodon.social/@CVFA",
+      instagram: "https://instagram.com/CVFA",
+      youtube: "https://youtube.com/@Cavifeal",
       website: "https://cvfa.vercel.app/"
     };
 
