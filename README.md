@@ -17,9 +17,9 @@
           `I'm a ${this.info.occupation} with ${yearsOfExperience} years of experience.`,
           `GitHub profile: <a href="${this.info.github}" target="_blank">${this.info.github}</a>`,
           `GitLab profile: <a href="${this.info.gitlab}" target="_blank">${this.info.gitlab}</a>`,
-          `YouTube channel: <a href="${this.info.youtube}" target="_blank">${this.info.youtube}</a>`,
-          `Instagram profile: <a href="${this.info.instagram}" target="_blank">${this.info.instagram}</a>`,
-          `Mastodon profile: <a href="${this.info.mastodon}" target="_blank">${this.info.mastodon}</a>`,
+          `My YouTube channel: <a href="${this.info.youtube}" target="_blank">${this.info.youtube}</a>`,
+          `My Instagram profile: <a href="${this.info.instagram}" target="_blank">${this.info.instagram}</a>`,
+          `My Mastodon profile: <a href="${this.info.mastodon}" target="_blank">${this.info.mastodon}</a>`,
           `My website: <a href="${this.info.website}" target="_blank">${this.info.website}</a>`
         ];
 
