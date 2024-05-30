@@ -15,12 +15,12 @@
           `I'm ${age} years old.`,
           `I'm ${this.info.nacionality}.`,
           `I'm a ${this.info.occupation} with ${yearsOfExperience} years of experience.`,
-          `You can find me on GitHub: <a href="${this.info.github}" target="_blank">${this.info.github}</a>`,
-          `And on GitLab: <a href="${this.info.gitlab}" target="_blank">${this.info.gitlab}</a>`,
-          `Check out my YouTube channel: <a href="${this.info.youtube}" target="_blank">${this.info.youtube}</a>`,
-          `Check out my Instagram: <a href="${this.info.instagram}" target="_blank">${this.info.instagram}</a>`,
-          `Check out my Mastodon: <a href="${this.info.mastodon}" target="_blank">${this.info.mastodon}</a>`,
-          `Check out my website: <a href="${this.info.website}" target="_blank">${this.info.website}</a>`
+          `GitHub profile: <a href="${this.info.github}" target="_blank">${this.info.github}</a>`,
+          `GitLab profile: <a href="${this.info.gitlab}" target="_blank">${this.info.gitlab}</a>`,
+          `YouTube channel: <a href="${this.info.youtube}" target="_blank">${this.info.youtube}</a>`,
+          `Instagram profile: <a href="${this.info.instagram}" target="_blank">${this.info.instagram}</a>`,
+          `Mastodon profile: <a href="${this.info.mastodon}" target="_blank">${this.info.mastodon}</a>`,
+          `My website: <a href="${this.info.website}" target="_blank">${this.info.website}</a>`
         ];
 
         const style = document.createElement('style');
