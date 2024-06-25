@@ -8,13 +8,13 @@ class Myself {
     const currentDate = new Date();
     const birthDate = new Date(this.info.birthYear, this.info.birthMonth - 1, this.info.birthDay);
     const age = currentDate.getFullYear() - birthDate.getFullYear() - (currentDate.getMonth() < birthDate.getMonth() || (currentDate.getMonth() === birthDate.getMonth() && currentDate.getDate() < birthDate.getDate()) ? 1 : 0);
-    const yearsOfExperienceAsDeveloper = currentDate.getFullYear() - 2017;
+    const yearsOfExperienceFirst = currentDate.getFullYear() - 2017;
 
     const introLines = [
       `Hello, I'm ${this.info.nickname}.`,
       `I'm ${age} years old.`,
       `I'm ${this.info.nacionality}.`,
-      `I'm a ${this.info.occupation} with ${yearsOfExperienceAsDeveloper} years of experience in ${this.info.devLanguages}.`,
+      `I'm a ${this.info.occupation} with ${yearsOfExperienceFirst} years of experience in ${this.info.devLanguagesFirst}.`,
       `GitHub profile: <a href="${this.info.github}" target="_blank">${this.info.github}</a>`,
       `GitLab profile: <a href="${this.info.gitlab}" target="_blank">${this.info.gitlab}</a>`,
       `My YouTube channel: <a href="${this.info.youtube}" target="_blank">${this.info.youtube}</a>`,
@@ -80,7 +80,7 @@ const MyInfo = {
   birthMonth: 12,
   birthDay: 31,
   occupation: "Developer",
-  devLanguages: "JavaScript and Node.js",
+  devLanguagesFirst: "JavaScript and Node.js",
   github: "https://github.com/CVFA-Dev",
   gitlab: "https://gitlab.com/CVFA",
   mastodon: "https://mastodon.social/@CVFA",
